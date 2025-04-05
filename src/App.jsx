@@ -1,5 +1,6 @@
 import InfoCv from "./EditCv/InfoCv";
 import Segundos from "./Segundos/Segundos";
+import Tarjetas from "./Tarjetas/Tarjetas";
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Segundos />
+      <Tarjetas />
     </>
   );
 }
