@@ -1,17 +1,14 @@
-import InfoCv from "./EditCv/InfoCv";
-import EstruClase from "./EstructuraClases/EstruClase";
-import Segundos from "./Segundos/Segundos";
-import Tarjetas from "./Tarjetas/Tarjetas";
+import React from "react";
 
-
-function App() {
-  
+import RenderName from "./RenderName/RenderName";
+const App = () => {
+ 
 
   return (
     <>
-      <EstruClase />
+      <RenderName />
     </>
   );
-}
+};
 
 export default App;
