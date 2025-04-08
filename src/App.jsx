@@ -1,12 +1,11 @@
 import React from "react";
 
-import RenderName from "./RenderName/RenderName";
 const App = () => {
  
 
   return (
     <>
-      <RenderName />
+      <h1>hola mundo</h1>
     </>
   );
 };
