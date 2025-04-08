@@ -1,16 +1,17 @@
 import React from "react";
 import { Link,  } from "react-router-dom";
-import Tarjeta from "../Tarjetas/Tarjetas";
-const Navbar = [
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "profile/:name",
-    element: <Profile />,
-  },
-];
+
+
+export const Navbar = () => {
+  return (
+    <nav>
+      <h1>Navbar</h1>
+      <Link to="/">Inicio</Link>
+      <Link to="/Tarjeta">Tarjeta pokemon</Link>
+      <Link to="/InfoCv">Formulario cv</Link>
+    </nav>
+  );
+  
+}
 
 export default Navbar;
